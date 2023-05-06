@@ -275,8 +275,7 @@ public class EnemyController : MonoBehaviour
         {
             Destroy(other.gameObject);  //destory power up
             GetComponent<HealthBar>().TakeDamage(2); //Reduce healthbar
-            enemyAnim.SetTrigger("isAttacked");
-            enemyAnim.SetTrigger("isAlert");
+            EnemyAttacked();
             SetTarget(player.transform.Find("ProjectileSpawnPoint"));
             //print("Powerup attacked");
         }
