@@ -63,6 +63,7 @@
     <Compile Include="Assets/Scripts/DestroyOnCollision.cs" />
     <Compile Include="Assets/Scripts/HealthBar.cs" />
     <Compile Include="Assets/Scripts/DestroyOutofBounds.cs" />
+    <Compile Include="Assets/Scripts/Reveal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

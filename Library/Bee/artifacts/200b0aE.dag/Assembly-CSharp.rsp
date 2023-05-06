@@ -355,6 +355,7 @@
 "Assets/Scripts/HealthBar.cs"
 "Assets/Scripts/MoveRotateCamera.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/Reveal.cs"
 -langversion:9.0
 
 /deterministic
